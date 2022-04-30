@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alura Store | Baixe nossos aplicativos e jogos</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/destaques.css" rel="stylesheet">
+    <link href="./assets/css/populares.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/responsivo.css" rel="stylesheet">
+</head>
+
+<body class="app">
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link ativo" href="#">
+                        <i class="fas fa-home"></i>
+                        Início
+                    </a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicativos</a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Jogos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="destaques">
+            <div class="destaques__principal caixa">
+                <h3 class="destaques__titulo">Fornite</h3>
+            </div>
+            <div class="destaques__secundario caixa">
+                <h3 class="destaques__titulo">PUBG</h3>
+            </div>
+            <div class="destaques__secundario caixa">
+                <h3 class="destaques__titulo">Slack</h3>
+            </div>
+            <div class="destaques__secundario caixa">
+                <h3 class="destaques__titulo">Whatsapp</h3>
+            </div>
+            <div class="destaques__secundario caixa">
+                <h3 class="destaques__titulo">CS: GO</h3>
+            </div>
+            <div class="destaques__categorias">
+                <ul class="destaques__categorias___lista">
+                    <li class="destaques__categorias___item">
+                        <a class="destaques__categorias___link" href="#">
+                            <i class="destaques__categorias___icone fab fa-buromobelexperte"></i>
+                            Aplicativos populares
+                        </a>
+                    </li>
+                    <li class="destaques__categorias___item">
+                        <a class="destaques__categorias___link" href="#">
+                            <i class="fas fa-list-ol"></i>
+                            Jogos populares
+                        </a>
+                    </li>
+                    <li class="destaques__categorias___item">
+                        <a class="destaques__categorias___link" href="#">
+                            <i class="far fa-star"></i>
+                            Em Destaque
+                        </a>
+                    </li>
+                    <li class="destaques__categorias___item">
+                        <a class="destaques__categorias___link" href="#">
+                            <i class="far fa-bell"></i>
+                            Lançamentos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="populares">
+            <div class="populares__itens">
+                <div class="populares__info">
+                    <div class="populares__cabecalho">
+                        <h4 class="populares__titulo">
+                            <i class="populares__icone fab fa-buromobelexperte"></i>
+                            Aplicativos populares
+                        </h4>
+                        <button class="populares__botao">
+                            <i class="fas fa-th"></i>
+                            Visualizar todos
+                        </button>
+                    </div>
+                </div>
+                <div class="populares__conteudo">
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/slack.png">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Slack</h5>
+                                <time class="populares__card___data" datetime="2013-08-01">08/2013</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Traduzido do inglês-O Slack é um conjunto baseado em nuvem de ferramentas e serviços proprietários de colaboração em equipe, fundado por Stewart Butterfield. O Slack começou como uma ferramenta interna usada por sua empresa, Tiny Speck, no desenvolvimento do Glitch, um jogo online agora extinto.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/whatsapp.png">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Whatsapp</h5>
+                                <time class="populares__card___data" datetime="20090-01-01">2009</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas de voz para smartphones. Além de mensagens de texto, os usuários podem enviar imagens, vídeos e documentos em PDF, além de fazer ligações grátis por meio de uma conexão com a internet.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/telegram.jpeg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Telegram</h5>
+                                <time class="populares__card___data" datetime="2013-08-14">14/08/2013</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                O Telegram é um serviço de mensagens instantâneas baseado na nuvem. O Telegram está disponível para smartphones ou tablets, computadores e também como Aplicação web. Os usuários podem enviar mensagens e trocar fotos, vídeos, stickers e arquivos de qualquer tipo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/trello.jpg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Trello</h5>
+                                <time class="populares__card___data" datetime="2011-01-01">2011</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Trello é um aplicativo de gerenciamento de projeto baseado na web originalmente feito por Fog Creek Software em 2011. Em 2014 tornou-se uma empresa. Ele opera um modelo de negócio Freemium, no qual é disponibilizado a versão gratuita ou paga para o usuário.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/skype.png">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Skype</h5>
+                                <time class="populares__card___data" datetime="2003-08-01">08/2003</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Skype é um software que permite comunicação pela Internet através de conexões de voz e vídeo, criado por Janus Friis e Niklas Zennstrom. O Skype foi lançado no ano de 2003. Em 2005 foi vendido para a empresa eBay e pertence, desde maio de 2011, à Microsoft.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="populares__itens">
+                <div class="populares__info">
+                    <div class="populares__cabecalho">
+                        <h4 class="populares__titulo">
+                            <i class="populares__icone fas fa-list-ol"></i>
+                            Jogos populares
+                        </h4>
+                        <button class="populares__botao">
+                            <i class="fas fa-th"></i>
+                            Visualizar todos
+                        </button>
+                    </div>
+                </div>
+                <div class="populares__conteudo">
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/fortnite.jpg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Fornite</h5>
+                                <time class="populares__card___data" datetime="2017-07-25">25/07/2017</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Fortnite é um jogo eletrônico online criado em 2017, desenvolvido pela Epic Games, e lançado como diferentes pacotes de software com diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/pubg.jpg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">PUBG</h5>
+                                <time class="populares__card___data" datetime="2017-03-23">23/03/2017</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                PlayerUnknown's Battlegrounds, ou somente Battlegrounds, é um jogo eletrônico multiplayer desenvolvido pela PUBG Corp., subsidiária da produtora coreana Bluehole, utilizando o motor de jogo Unreal Engine 4
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/cs-go.jpg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">CS: GO</h5>
+                                <time class="populares__card___data" datetime="2012-08-21">21/08/2012</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Counter-Strike: Global Offensive é um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/lol.jpg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">League of Legends</h5>
+                                <time class="populares__card___data" datetime="2009-10-27">27/10/2009</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                League of Legends é um jogo eletrônico do gênero multiplayer online battle arena, desenvolvido e publicado pela Riot Games para Microsoft Windows e Mac OS X. É um jogo gratuito para jogar e inspirado no modo Defense of the Ancients de Warcraft III: The Frozen Throne.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/gta-v.jpg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Grand Theft Auto V</h5>
+                                <time class="populares__card___data" datetime="2013-09-17">17/09/2013</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Grand Theft Auto V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="populares__itens">
+                <div class="populares__info">
+                    <div class="populares__cabecalho">
+                        <h4 class="populares__titulo">
+                            <i class="populares__icone far fa-star"></i>
+                            Em Destaque
+                        </h4>
+                        <button class="populares__botao">
+                            <i class="fas fa-th"></i>
+                            Visualizar todos
+                        </button>
+                    </div>
+                </div>
+                <div class="populares__conteudo">
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/fortnite.jpg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Fornite</h5>
+                                <time class="populares__card___data" datetime="2017-07-25">25/07/2017</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Fortnite é um jogo eletrônico online criado em 2017, desenvolvido pela Epic Games, e lançado como diferentes pacotes de software com diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/pubg.jpg">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">PUBG</h5>
+                                <time class="populares__card___data" datetime="2017-03-23">23/03/2017</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                PlayerUnknown's Battlegrounds, ou somente Battlegrounds, é um jogo eletrônico multiplayer desenvolvido pela PUBG Corp., subsidiária da produtora coreana Bluehole, utilizando o motor de jogo Unreal Engine 4
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/slack.png">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Slack</h5>
+                                <time class="populares__card___data" datetime="2013-08-01">08/2013</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Traduzido do inglês-O Slack é um conjunto baseado em nuvem de ferramentas e serviços proprietários de colaboração em equipe, fundado por Stewart Butterfield. O Slack começou como uma ferramenta interna usada por sua empresa, Tiny Speck, no desenvolvimento do Glitch, um jogo online agora extinto.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/whatsapp.png">
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Whatsapp</h5>
+                                <time class="populares__card___data" datetime="20090-01-01">2009</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas de voz para smartphones. Além de mensagens de texto, os usuários podem enviar imagens, vídeos e documentos em PDF, além de fazer ligações grátis por meio de uma conexão com a internet.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/cs-go.jpg"> 
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">CS: GO</h5>
+                                <time class="populares__card___data" datetime="2012-08-21">21/08/2012</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Counter-Strike: Global Offensive é um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="populares__itens">
+                <div class="populares__info">
+                    <div class="populares__cabecalho">
+                        <h4 class="populares__titulo">
+                            <i class="populares__icone far fa-bell"></i>
+                            Lançamentos
+                        </h4>
+                        <button class="populares__botao">
+                            <i class="fas fa-th"></i>
+                            Visualizar todos
+                        </button>
+                    </div>
+                </div>
+                <div class="populares__conteudo">
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/brawl-stars.jpg"> 
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Brawl Stars</h5>
+                                <time class="populares__card___data" datetime="2017-06-15">15/06/2017</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Traduzido do inglês-Brawl Stars é um jogo multiplayer de arena e jogos de luta livre, desenvolvido e publicado pela Supercell. Em 14 de junho de 2017, a Supercell anunciou o jogo por meio de um vídeo de transmissão ao vivo no YouTube.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/organizze.jpeg"> 
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Organizze</h5>
+                                <time class="populares__card___data" datetime="">Não definida</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Usado por mais de 1 milhão de pessoas, o Organizze é uma ferramenta online que vai facilitar sua vida financeira.  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/onefotball.jpeg"> 
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Onefootball</h5>
+                                <time class="populares__card___data" datetime="2008-01-01">2008</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Onefootball é a melhor plataforma para os fãs de futebol de todo o mundo. Das notícias às pontuações e estatísticas - Contamos as histórias de futebol do mundo, trazidas a você por mais de 150 entusiastas do coração de Berlim!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/free-fire.jpg"> 
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Free Fire</h5>
+                                <time class="populares__card___data" datetime="2017-11-01">01/11/2017</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Garena Free Fire é um jogo eletrônico mobile de ação-aventura do gênero battle royale, desenvolvido pela 111dots Studio e publicado pela Garena. O jogo obteve um beta aberto em novembro de 2017 e foi lançado oficialmente para Android e iOS em 4 de dezembro de 2017.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="populares__card">
+                        <img class="populares__card___imagem" src="./assets/img/mario-kart.jpg"> 
+                        <div class="populares__card___corpo">
+                            <div class="populares__card___cabecalho">
+                                <h5 class="populares__card___titulo">Super Mario Racing</h5>
+                                <time class="populares__card___data" datetime="">Não definida</time>
+                            </div>
+                            <div class="populares__card___descricao">
+                                Jogo Super Mario Racing. Escolha seu personagem preferido do Universo do Super Mario e depois é só acelerar!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer  class="rodape">Todos os direitos reservados &copy;2019</footer>
+    <script src="./assets/js/fontawesome.all.min.js"></script>
+</body>
+.caixa{
+    align-items: flex-end;
+    display: flex;
+    background: #dcdcdc;
+    justify-content: center;
+}
+
+.destaques{
+    grid-gap: .2rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33% ;
+    height: calc(100vh - 50px);
+}
+
+
+.destaques__titulo{
+    background: rgba(0, 0, 0, .5);
+    color: #fdfdfdfd;
+    padding: rem;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.destaques__principal{
+    background-image:url(..//img/fortnite.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: 1/ 3;
+
+}
+
+
+
+.destaques__secundario:nth-child(2){
+    background: url(../img/pubg.jpg) center / cover no-repeat;
+    
+
+    }
+
+.destaques__secundario:nth-child(3){
+    background: url('../img/slack.png') center / cover no-repeat;
+    
+
+     }
+
+    .destaques__secundario:nth-child(4){
+     background: url('../img/whatsapp.png') center / cover no-repeat;
+     
+     }
+
+     .destaques__secundario:nth-child(5){
+     background: url('../img/cs-go.jpg') center / cover no-repeat;
+     
+        
+        }
+
+
+
+    .destaques__categorias{
+       
+        grid-row: 3/3;
+    }
+
+    .destaques__categorias___lista{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .destaques__categorias___item{
+        align-items: center;
+        width: 50%;
+        border-left: 5px solid transparent;
+        color: #333333;
+        display: flex;
+        padding: 1rem;
+        background: #fdfdfd;
+    }
+
+
+    .destaques__categorias___link{
+        color: inherit;
+    }
+
+
+.menu__link{
+    padding: .5rem 1rem;
+    color: #333333;
+}
+
+.menu__link:hover, .menu__link.ativo{
+    border-bottom: 2px solid #007326;
+}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+.populares{
+    padding: 3rem 0;
+}
+
+.populares__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: conteudo;
+    padding: 1rem 0;
+}
+
+.populares__card{
+    background-color:#fdfdfd;
+    display: grid;
+    grid-template-areas: 
+    "card-imagem"
+    "card-corpo";
+    
+   
+    grid-template-columns: 100%;
+   
+}
+
+.populares__card:last-child{
+    margin-right: 0;
+}
+
+
+.populares__card___imagem{
+    grid-area: card-imagem;
+    height: 100%;
+    width: 100%;
+}
+
+.populares__card___corpo{
+    display: grid;
+    grid-area: card-corpo;
+    grid-row-gap: .5rem;
+    grid-template-areas: 
+    "card-cabecalho"
+    "card-conteudo";
+    grid-template-rows: 58px auto;
+    padding: .75rem;
+}
+
+.populares__card___titulo{
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+.populares__card___data{
+    color: #808080;
+    font-size: .9rem;
+}
+
+.populares__card___descricao{
+    color: #333333;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.populares__titulo{
+    font-weight: 500;
+}
+
+.populares__icones{
+    margin-right: .25rem;
+}
+
+.populares__cabecalho{
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.populares__botao{
+    background: transparent;
+    border: none;
+    color: #333333 }
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a:hover, button:hover {
+    cursor: pointer;
+}
+@media screen and (min-width : 0) {
+
+    .destaques__principal, .destaques__categorias{
+        grid-column: 1/5;
+    }
+
+    .destaques__secundario:nth-child(2){
+        display:none;
+        background: url(../img/pubg.jpg) center / cover no-repeat;
+        grid-column: none;
+        grid-row: none;
+    
+        }
+
+        .destaques__secundario:nth-child(3){
+            display:none;
+            background: url(../img/pubg.jpg) center / cover no-repeat;
+            grid-column: none;
+            grid-row: none;
+        
+            }
+    
+
+        .destaques__secundario:nth-child(4){
+        display:none;
+        background: url(../img/pubg.jpg) center / cover no-repeat;
+        grid-column: none;
+        grid-row: none;
+    
+        }
+
+        .destaques__secundario:nth-child(5){
+        display:none;
+        background: url(../img/pubg.jpg) center / cover no-repeat;
+        grid-column: none;
+        grid-row: none;
+    
+        }
+
+
+        .populares__conteudo{
+            flex-direction: column;
+        }
+
+
+        .populares__card{
+            grid-template-rows: 150px auto;
+            margin-right: 0;
+            margin-bottom: 3rem;
+            width: 100%;
+
+        }
+    
+
+
+        
+}
+
+
+@media screen and (min-width : 768px){
+
+    .destaques__principal{
+        grid-column: 1/4;
+    }
+
+    .destaques__secundario:nth-child(2){
+        display:flex;
+        background: url(../img/pubg.jpg) center / cover no-repeat;
+        grid-column: 4/4;
+        grid-row: 1/1;
+    
+        }
+
+        .destaques__secundario:nth-child(3){
+            display:flex;
+            background: url(../img/slack.png) center / cover no-repeat;
+            grid-column: 4/4;
+            grid-row: 2/2;
+        
+            }
+    
+
+        .destaques__secundario:nth-child(4){
+        display:flex;
+        background: url(../img/whatsapp.png) center / cover no-repeat;
+        grid-column: 4/4;
+        grid-row:3/3;
+    
+        }
+
+        .destaques__secundario:nth-child(5){
+        display:flex;
+        background: url(../img/cs-go.jpg) center / cover no-repeat;
+        grid-column: 3/3;
+        grid-row: 3/3;
+    
+        }
+
+        .destaques__categorias{
+            grid-column: 1/3;
+        }
+
+
+      
+        .populares__conteudo{
+            flex-direction: row;
+        }
+
+
+        .populares__card{
+            grid-template-rows: 150px auto;
+            margin-right: 1rem;
+            margin-bottom: 3rem;
+            width: calc(50% - 1rem);
+
+        }
+    
+        
+
+} 
+
+
+@media screen and (min-width : 992px) {
+
+    
+
+    .populares__card{
+        
+        margin-bottom: 3rem;
+        width: calc(33.33% - 1rem);
+
+    }
+
+
+}
+
+
+@media screen and (min-width : 1200px) {
+
+    .populares__card{
+        
+    
+        margin-bottom: 0;
+        width: calc(20% - 1rem);
+
+    }
+}
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-rows: 50px auto auto;
+    grid-template-columns: auto
+    
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    padding: 0 2rem;
+    grid-area: cabecalho;
+    
+}
+ 
+.conteudo {
+    padding: 0 2rem;
+    grid-area: conteudo;
+  
+}
+
+.rodape {
+    background: #fdfdfd;
+    padding: 1rem;
+    font-size: .8rem;
+    text-align: center;
+    grid-area: rodape;
+   
+}
+</html>
